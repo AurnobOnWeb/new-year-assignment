@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #FF0000;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 30px;
+}
+
+/* main style */
+
+main{
+  margin: 50px 140px;
+}
+/* section Styles  */
+section{
+  margin-bottom: 120px;
+}
+/* Promo Banner Section */
+.promo-banner{
+  height: 700px;
+  border-radius: 16px;
+  background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100% ) , url('../images/banner_image.png') no-repeat ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.promo-subtitle{
+color: #FFF;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 32px;
+font-weight: 400;
+}
+.promo-title{
+color: #FFF;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+}
+
