@@ -215,5 +215,82 @@ font-weight: 700;
   width: 140px;
 height: 140px;
 margin-top:40px;
+}
+/* Holiday sales section */
+.sales-header{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.sales-subtitle{
+color: #070211;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+.sales-title{
+  margin: 16px;
+color: #070211;
+font-family: 'Merriweather', serif;
+font-size: 72px;
+font-weight: 900;
+}
+.special-title{
+  color: #FF0000;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.sales-summary{
+  width: 1060px;
+  text-align: center;
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; /* 160% */
+margin-bottom: 64px;
+}
+
+.holdiday-banner{
+  display: flex;
+  justify-content: space-between;
 
 }
+.mystry-box{
+  border-bottom-left-radius: 15px;
+  width: 50%;
+  height: 662px;
+ background: url('../images/red.png') no-repeat bottom ;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.mystry-box-img{
+  height: 500px;
+  margin-left: 40px;
+}
+.discount-offer{
+  width: 50%;
+  height: 662px;
+
+  background: url('../images/red.png') no-repeat bottom ;
+  border-bottom-right-radius: 15px;
+}
+.sales-banners{
+  height: 433px;
+  background: url('../images/shopcart1.png') no-repeat  top right ;
+  display: flex; 
+  justify-content: end;
+  align-items: center;
+ 
+}
+.discount-img{
+  margin-right: 336px;
+  height: 210px;
+}
+
+
