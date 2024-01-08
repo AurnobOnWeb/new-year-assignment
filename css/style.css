@@ -30,7 +30,7 @@ section{
   height: 700px;
   border-radius: 15px;
   background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100% ) , url('../images/banner_image.png') no-repeat ;
-  background-size: cover;
+  background-size:cover ;
   display: flex;
   align-items: center;
   justify-content: center;
