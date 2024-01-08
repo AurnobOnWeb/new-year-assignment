@@ -190,7 +190,7 @@ color: rgba(7, 2, 17, 0.60);
 font-family: 'Inter', sans-serif;
 font-size: 20px;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px; 
 }
 .offer-banner{ 
   padding: 20px;
@@ -254,7 +254,7 @@ line-height: 32px; /* 160% */
 margin-bottom: 64px;
 }
 
-.holdiday-banner{
+.holiday-banner{
   display: flex;
   justify-content: space-between;
 
@@ -294,3 +294,169 @@ margin-bottom: 64px;
 }
 
 
+/* portfolio section  */
+
+.portfolio-subtitle{
+  color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.portfolio-title{
+color: #070211;
+font-family: 'Merriweather', serif;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 24px;
+}
+.portfolio-summary{
+width: 70%;
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-bottom: 48px;
+}
+
+.portfolio-row{
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.column{
+ width: 33%;
+height: 450px;
+transition: transform .4s; 
+}
+
+.column:hover{
+  transform: scale(1.06); 
+}
+
+/* NewsLetter Section */
+
+.newsletter{
+  height: 500px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.email-icon{
+ height: 150px;
+ width: 150px;
+ margin-bottom: 40px;
+}
+.newsletter-heading{
+color: #070211;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 24px;
+}
+
+.newsletter-summary{
+width: 900px;
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-bottom: 48px;
+}
+.newsletter-subscribe{
+display: inline-flex;
+}
+.newsletter-input{
+border: none;
+background: #FFF;
+width: 450px;
+height: 40px;
+padding: 10px 40px;
+border-radius: 50px 0px 0px 50px;
+}
+.newsletter-btn{
+  border: none;
+  color: #fff;
+  width: 210px;
+  height: 60px;
+  
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  
+}
+input:focus {
+  outline: none; 
+}
+
+/* footer */
+
+.footer{
+  height: 400px;
+  padding: 120px 140px;
+  background: #070211;
+}
+
+.contact-address{
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+   
+.divider{
+  border: 1px solid gray;
+  width: 100%;
+  opacity: 10%;
+}
+.address{
+  color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+.contact-info{
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 40px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 48px 0px;
+}
+
+.copy-rights{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
